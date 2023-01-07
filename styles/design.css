@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+.banner {
+
+
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    top: 50px;
+    background: #FD6E0A;
+    border-radius: 5px;
+
+}
+
+
+.text {
+    padding: 180px 150px;
+    color: #151414;
+    text-align: right;
+}
+
+.banner-title {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.banner-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #444343;
+}
+
+.about-info-container {
+
+    display: flex;
+    gap: 350px;
+
+}
+
+.about-info-container img {
+
+    padding-top: 80px;
+    padding-left: 200px;
+
+}
+
+.about-info {
+    padding-top: 200px;
+    color: #757575;
+    font-size: 20px;
+
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #151414;
+    padding-bottom: 30px;
+    
+}
+
+.section-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    color:#151414;
+    padding-bottom: 20px;
+}
+
+li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #444343;
+}
+
+
+.p-title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.skills-container img {
+
+    text-align: center;
+    padding-left: 30px;
+
+
+}
+
+
+
+.skill {
+    background: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 170px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.roadmap-container {
+    display: flex;
+    gap: 350px;
+
+}
+
+.roadmap-container img {
+
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    border-radius: 10px;
+
+}
+
+.show_bg {
+
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    width: 75%;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    margin: 30px;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+    background-position: center;
+    color: white;
+}
+
+.gradient-txt {
+    padding-top: 30px;
+    padding-left: 500px;
+    height: 50vh;
+    width: 70%;
+}
+
+.btn-secondary {
+    color: #da6518;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 13px 25px;
+    height: 44px;
+    top: 50px;
+    background: #f7f7f7;
+    border-radius: 5px;
+
+
+}
+
+.contact {
+    padding-top: 10px;
+    display: flex;
+    gap: 550px;
+    background: rgb(22, 22, 22);
+    padding: 100px 180px;
+
+}
+.section-2title {
+    text-align: left;
+    color: #ece5e5;
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 5px;
+
+}
+
+.section-3title{
+
+    color: #ece5e5;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.section-2description {
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #ece5e5;
+
+}
+
+.contact input {
+
+    border: 40px;
+    border-color: #211717;
+    width: 70%;
+    height: 40%;
+    padding: 18px 30px;
+    background-color: #ffffff;
+
+}
+
+.btn-3{
+    color: #da6518;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 13px 25px;
+    height: 44px;
+    top: 50px;
+    background: #f7f7f7;
+    border-radius: 5px;
+     
+} 
+
+::placeholder {
+    color: rgb(16, 2, 2);
+    opacity: 2;
+}
+
+input {
+    height: 50px;
+}
+
+.contact a {
+    text-decoration: none;
+}
